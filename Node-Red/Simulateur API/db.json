@@ -1,0 +1,19 @@
+
+{
+   "getDetails": [{ "id": "1", "deviceName": "buble", "listInfo": [
+      {"brigtness": "100", "color": "white"}
+   ],
+   "deviceStatus": "true"}
+],
+"getStateV1": [{ "id": "1", "deviceStatus": "conected"}]
+,
+"getState": [{ "id": "1", "deviceStatus": "conected"}]
+,
+"getMotion": [{ "id": "1", "deviceStatus": "conected", "motion": "true"}]
+,
+"getEnvironmental": [{ "id": "1", "deviceStatus": "conected", "data": [
+   {"temperature":"24", "humidity":"42"}
+]}]
+,
+"zigbeeSwitch": [{ "id": "1", "deviceStatus": "conected", "button1": "true"}]
+}

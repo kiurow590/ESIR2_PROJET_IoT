@@ -1,0 +1,23 @@
+/*
+    Traitement log :
+    - Lire les données des logs toutes les 1 milli secondes
+    - Comparer la dernière ligne avec la dernière ligne de log enregistré
+        - si identique alors on ne fait rien
+        - sinon on traite la dernière ligne de log enregistrée jusqu'à la derière ligne puis on met à jour la dernière ligne de log enregistré
+
+    Objectif ajouter module et données dans la BDD:
+    Dans le cas ou l'id du module est inexistant on le crée et on ajoute la donnée dans la BDD
+    Sinon ajouter les données dans la BDD
+
+*/
+
+
+// connexion : ssh kiurow590@196.168.55.9
+
+
+// copier un fichier de l'ordi vers le rasp, se situer là ou est le fichier à copier puis : 
+// scp consoleZig.js kiurow590@192.168.55.9:/home/kiurow590/Documents
+
+//Fichier de log, attention le dossier 2023-10... change à chaque fois, il faut donc prendre le dernier créé à chaque fois
+// cd ../../opt/zigbee2mqtt/data/log/2023-10-23.13-55-37
+// cat log.txt

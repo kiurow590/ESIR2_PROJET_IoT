@@ -1,0 +1,24 @@
+{
+    "Module1": {
+        "Nom": "",
+        "ListeEtat": {
+            "val1": "",
+            "val2": ""
+        },
+        "ListeHoraire": {
+            "hor1": "",
+            "hor2": ""
+        }
+    },
+    "Module2": {
+        "Nom": "",
+        "ListeEtat": {
+            "val1": "",
+            "val2": ""
+        },
+        "ListeHoraire": {
+            "hor1": "",
+            "hor2": ""
+        }
+    }
+}

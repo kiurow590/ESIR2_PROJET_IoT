@@ -1,0 +1,28 @@
+git clone --branch features/API_Rest https://github.com/ESIR-IOT-2-Project/project-teamzigbee.git
+thibault.guerinelt@gmail.com
+<token>
+
+
+maj dosier git sur rasp
+git fetch
+
+git pull
+
+commande à effectuer avant de tester :
+cd projet.../Server
+npm install
+
+Lancer ZigBee2Mqtt :
+cd ../../opt/zigbee2mqtt
+npm start
+
+dans le naviguateur pour afficher l'interface graphique :
+localhost:8080
+
+
+
+lancer api rest :
+cd Server/
+node serverExpress.js
+
+

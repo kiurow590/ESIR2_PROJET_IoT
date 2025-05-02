@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.2",
+  "description": "Nodes of ZigbeeProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "configuration-zigbee": "configuration-zigbee.js",
+      "control-light": "control-light.js",
+      "zigbee-switch": "zigbee-switch.js",
+      "control-plug": "control-plug.js"
+    }
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}

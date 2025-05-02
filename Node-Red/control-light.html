@@ -1,0 +1,46 @@
+<script type="text/javascript">
+    RED.nodes.registerType('control-light',{
+        category: 'Zigbee project',
+        color: '#F0E68C',
+        defaults: {
+            server: {value:"", type:"configuration-zigbee"},
+            name: {value:""},
+            deviceId : {value:""}
+        },
+        inputs: 1,
+        icon: "font-awesome/fa-lightbulb-o",
+        label: function() {
+            return this.name||"Control light";
+        },
+        palleteLabel: "control light"
+    });
+</script>
+
+<script type="text/html" data-template-name="control-light">
+    <div class="form-row">
+        <label for="node-input-configuration"><i class="fa fa-gear"></i> Server</label>
+        <input type="text" id="node-input-server" />
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name" />
+    </div>
+    <div class="form-row">
+        <label for="node-input-deviceId"><i class="fa fa-rss"></i> Device ID</label>
+        <input type="text" id="node-input-deviceId" />
+    </div>
+</script>
+
+<script type="text/markdown" data-help-name="control-light">
+    This node control a light. It expects a payload with informations
+  
+    e.g.
+  
+    ```
+    {
+      "id": "123456789",
+      "intensity" : "42" (0->100),
+      "powerOn" : true (true or false)
+    }
+    ```
+  </script>

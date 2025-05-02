@@ -1,0 +1,55 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20vw);
+    //grid-template-rows: repeat(auto, 20vw);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(20vw, auto);
+
+    &-square-1x1 {
+
+        grid-column-end: span 1;
+        grid-row-end: span 1;
+    }
+
+    &-square-2x2 {
+
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+    }
+
+    &-square-3x3 {
+
+        grid-column-end: span 3;
+        grid-row-end: span 3;
+    }
+
+    &-rect-1x2 {
+        grid-column-end: span 1;
+        grid-row-end: span 2;
+    }
+
+    &-rect-1x3 {
+        grid-column-end: span 1;
+        grid-row-end: span 3;
+    }
+
+    &-rect-2x1 {
+        grid-column-end: span 2;
+        grid-row-end: span 1;
+    }
+
+    &-rect-3x1 {
+        grid-column-end: span 3;
+        grid-row-end: span 1;
+    }
+
+    &-rect-2x3 {
+        grid-column-end: span 2;
+        grid-row-end: span 3;
+    }
+
+    &-rect-3x2 {
+        grid-column-end: span 3;
+        grid-row-end: span 2;
+    }
+}

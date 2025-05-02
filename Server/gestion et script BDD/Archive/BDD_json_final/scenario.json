@@ -1,0 +1,18 @@
+{
+    "Scenar1": {
+        "Nom": "",
+        "ID": "",
+        "module": "",
+        "condDep": "",
+        "ModuleActionneur": "",
+        "CondArrive": ""
+    },
+    "Scenar2": {
+        "Nom": "",
+        "ID": "",
+        "module": "",
+        "condDep": "",
+        "ModuleActionneur": "",
+        "CondArrive": ""
+    }
+}
